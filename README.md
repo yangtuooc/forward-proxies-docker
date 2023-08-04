@@ -15,25 +15,25 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/nginx-forward-proxy.git
+   git clone git@github.com:yangtuooc/forward-proxies-docker.git
    ```
 
 2. Change to the project directory:
 
    ```shell
-   cd nginx-forward-proxy
+   cd forward-proxies-docker
    ```
 
 3. Build the Docker image:
 
    ```shell
-   docker build -t nginx-forward-proxy .
+   docker build -t forward-proxies-docker .
    ```
 
 4. Run the Docker container:
 
    ```shell
-   docker run -d -p 8080:8080 nginx-forward-proxy
+   docker run -d -p 8080:8080 forward-proxies-docker
    ```
 
 ## Configuration
